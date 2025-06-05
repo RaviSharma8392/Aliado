@@ -4,74 +4,79 @@ const TeamPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Chiranjeev Suyal',
-      role: 'Co-founder & Software Developer',
-      bio: 'Experienced tech leader with a strong background in web development and product strategy.',
-      image: './images/WhatsApp Image 2025-06-04 at 22.07.30_c12e078a.jpg',
-    //   social: {
-    //     // linkedin: 'https://linkedin.com/in/alexjohnson',
-    //     // email: 'alex@company.com'
-    //   }
+      name: "Chiranjeev Suyal",
+      role: "Co-founder & Software Developer",
+      bio: "Experienced tech leader with a strong background in web development and product strategy.",
+      image:
+        "https://ucarecdn.com/842535b7-6000-4796-8356-d9741ef024a2/05bbd4cb9cd74210a74d1b8819c6e03df8.jpeg",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/alexjohnson',
+      //     // email: 'alex@company.com'
+      //   }
     },
     {
       id: 2,
-      name: 'Samishtha Brijwasi',
-      role: 'Digital Marketing Specialist',
-      bio: 'Skilled marketer focused on SEO, content creation, and growing digital presence.',
-      image: './images/WhatsApp Image 2025-06-04 at 22.07.31_5c13aad7.jpg',
-    //   social: {
-    //     // linkedin: 'https://linkedin.com/in/sarahwilliams',
-    //     // email: 'sarah@company.com'
-    //   }
+      name: "Samishtha Brijwasi",
+      role: "Digital Marketing Specialist",
+      bio: "Skilled marketer focused on SEO, content creation, and growing digital presence.",
+      image:
+        "https://ucarecdn.com/4a1f1134-b9a8-4fd0-8338-9d95233afb6b/e3b60415e7cd40fda8d2ad859e062570fg.jpeg",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/sarahwilliams',
+      //     // email: 'sarah@company.com'
+      //   }
     },
     {
       id: 3,
-      name: 'Harshit Brijwasi',
-      role: 'Co-founder & Software Developer',
-      bio: 'Full-stack developer specializing in scalable apps using React, Node.js, and modern APIs.',
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQFG9M8Q-JdQ3w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1675127463885?e=1754524800&v=beta&t=FOKPqIlLXIlInrnpxT4qq2TEWrB1nUQIg4DIL0_w_Ms',
-    //   social: {
-    //     // linkedin: 'https://linkedin.com/in/michaelchen',
-    //     // github: 'https://github.com/michaelchen',
-    //     // email: 'michael@company.com'
-    //   }
+      name: "Harshit Brijwasi",
+      role: "Co-founder & Software Developer",
+      bio: "Full-stack developer specializing in scalable apps using React, Node.js, and modern APIs.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D5603AQFG9M8Q-JdQ3w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1675127463885?e=1754524800&v=beta&t=FOKPqIlLXIlInrnpxT4qq2TEWrB1nUQIg4DIL0_w_Ms",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/michaelchen',
+      //     // github: 'https://github.com/michaelchen',
+      //     // email: 'michael@company.com'
+      //   }
     },
     {
       id: 4,
-      name: 'Ravi Sharma',
-      role: 'Software Developer',
-      bio: 'Focused on user-friendly front-end development and delivering clean, maintainable code.',
-      image: 'https://media.licdn.com/dms/image/v2/D4D03AQER4b_SsgaOTQ/profile-displayphoto-shrink_800_800/B4DZbPG3qmHQAo-/0/1747231408883?e=1754524800&v=beta&t=Fm2ej0JiAHipwyNDPfeN7UZo-03-ZArqxbRY7OhvyLc',
-    //   social: {
-    //     // linkedin: 'https://linkedin.com/in/emmarodriguez',
-    //     // twitter: 'https://twitter.com/emmarodriguez',
-    //     // email: 'emma@company.com'
-    //   }
+      name: "Ravi Sharma",
+      role: "Software Developer",
+      bio: "Focused on user-friendly front-end development and delivering clean, maintainable code.",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D03AQER4b_SsgaOTQ/profile-displayphoto-shrink_800_800/B4DZbPG3qmHQAo-/0/1747231408883?e=1754524800&v=beta&t=Fm2ej0JiAHipwyNDPfeN7UZo-03-ZArqxbRY7OhvyLc",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/emmarodriguez',
+      //     // twitter: 'https://twitter.com/emmarodriguez',
+      //     // email: 'emma@company.com'
+      //   }
     },
     {
       id: 5,
-      name: 'Nikhil Rawat',
-      role: 'Sales Manager',
-      bio: 'Results-driven sales professional with a focus on customer success and long-term partnerships.',
-      image: './images/WhatsApp Image 2025-06-04 at 22.07.54_8b413d235582852.jpg',
-    //   social: {
-    //     linkedin: 'https://linkedin.com/in/davidkim',
-    //     github: 'https://github.com/davidkim',
-    //     email: 'david@company.com'
-    //   }
+      name: "Nikhil Rawat",
+      role: "Sales Manager",
+      bio: "Results-driven sales professional with a focus on customer success and long-term partnerships.",
+      image:
+        "./images/WhatsApp Image 2025-06-04 at 22.07.54_8b413d235582852.jpg",
+      //   social: {
+      //     linkedin: 'https://linkedin.com/in/davidkim',
+      //     github: 'https://github.com/davidkim',
+      //     email: 'david@company.com'
+      //   }
     },
     {
       id: 6,
-      name: 'Pranjal Sharma',
-      role: 'Digital Marketing Specialist',
-      bio: 'Creative strategist with a passion for branding, analytics, and audience engagement.',
-      image: '/images/WhatsApp Image 2025-06-04 at 22.10.03_b7013c00.jpg',
-    //   social: {
-    //     // linkedin: 'https://linkedin.com/in/priyapatel',
-    //     // github: 'https://github.com/priyapatel',
-    //     // email: 'priya@company.com'
-    //   }
-    }
+      name: "Pranjal Sharma",
+      role: "Digital Marketing Specialist",
+      bio: "Creative strategist with a passion for branding, analytics, and audience engagement.",
+      image: "/images/WhatsApp Image 2025-06-04 at 22.10.03_b7013c00.jpg",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/priyapatel',
+      //     // github: 'https://github.com/priyapatel',
+      //     // email: 'priya@company.com'
+      //   }
+    },
   ];
 
   return (
