@@ -32,9 +32,17 @@ const Footer = () => {
               {" "}
               <a href="#about">About Us</a>{" "}
             </li>
-            <li>Mobile App Development</li>
-            <li>UI/UX Design</li>
-            <li>Custom Software Development</li>
+            <li>
+              Phone: <a href="tel:+9170609 88418">+91 70609 88418</a>
+              {/* <a href="#+91 70609 88418">+91 70609 88418 </a>{" "} */}
+            </li>
+            <li>
+              Email:{" "}
+              <a href="mailto:aliado470@gmail.com" className="hover:underline">
+                aliado470@gmail.com
+              </a>
+            </li>
+            <li> Location: Bhimtal,Nainital,Uttarakhand</li>
           </ul>
         </div>
 
@@ -86,7 +94,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://www.instagram.com/aliado193?utm_source=ig_web_button_share_sheet&igsh=MW5icXBpdnpxcXlneQ=="
               aria-label="Instagram"
               target="_blank"
               rel="noopener noreferrer">

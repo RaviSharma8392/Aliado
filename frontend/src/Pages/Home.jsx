@@ -232,7 +232,7 @@ const Home = () => {
         Our Pricing
       </h1>
       <div className="">
-        <div className="grid px-40 mb-10  md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid px-5 md:px-40 mb-10  md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
               title: "Websites",
