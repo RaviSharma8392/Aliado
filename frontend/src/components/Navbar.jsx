@@ -22,38 +22,85 @@ return () => window.removeEventListener('scroll', handleScroll);
     setIsMenuOpen(!isMenuOpen)
   }
 
-  return ( 
-    <nav className={` md:px-40  fixed w-full z-50 font-bold ${isScroll?' bg-[#20163c] text-white':isMenuOpen?'bg-white':"bg-transparent"}`}>
-      <div className='container mx-auto p-6'>
-        <div className='flex justify-between items-center'>
+  return (
+    <nav
+      className={` md:px-40  fixed w-full z-50 font-bold ${
+        isScroll
+          ? " bg-[#20163c] text-white"
+          : isMenuOpen
+          ? "bg-white"
+          : "bg-transparent"
+      }`}>
+      <div className="container mx-auto p-6">
+        <div className="flex justify-between items-center">
           {/* Logo placeholder - uncomment when you have a logo */}
-          <div>{isScroll?   <img className="text-black md:h-20 h-15" src="https://i.postimg.cc/VsJ96m8r/Whats-App-Image-2025-03-20-at-11-44-09-removebg-preview.png" alt="" />:
-             <img className="text-black md:h-20 h-15" src="/images/ChatGPT Image Jun 4, 2025, 08_10_39 PM.png" alt="" />}
-          
+          <div>
+            {isScroll ? (
+              <img
+                className="text-black md:h-20 h-15"
+                src="https://i.postimg.cc/VsJ96m8r/Whats-App-Image-2025-03-20-at-11-44-09-removebg-preview.png"
+                alt=""
+              />
+            ) : (
+              <img
+                className="text-black md:h-20 h-15"
+                src="/images/ChatGPT Image Jun 4, 2025, 08_10_39 PM.png"
+                alt=""
+              />
+            )}
           </div>
 
           {/* Desktop Navigation */}
-          <div className='hidden md:flex text-[14px] gap-6'>  
-            <NavLink to="/" className="hover:text-blue-700 transition">HOME</NavLink>
-            <NavLink to="/projects" className="hover:text-blue-700 transition">PROJECTS</NavLink>
-            <NavLink to="/service" className="hover:text-blue-700 transition">SERVICE</NavLink>
-            <NavLink to="/team" className="hover:text-blue-700 transition">TEAM</NavLink>
-            <NavLink to="/contact" className="hover:text-blue-700 transition">CONTACT</NavLink>
+          <div className="hidden md:flex text-[14px] gap-6">
+            <NavLink to="/" className="hover:text-blue-700 transition">
+              HOME
+            </NavLink>
+            <NavLink to="/projects" className="hover:text-blue-700 transition">
+              PROJECTS
+            </NavLink>
+            <NavLink to="/service" className="hover:text-blue-700 transition">
+              SERVICE
+            </NavLink>
+            <NavLink to="/team" className="hover:text-blue-700 transition">
+              TEAM
+            </NavLink>
+            {/* <NavLink to="/contact" className="hover:text-blue-700 transition">CONTACT</NavLink> */}
           </div>
 
           {/* Mobile menu button */}
-          <div className='md:hidden'>
-            <button 
+          <div className="md:hidden">
+            <button
               onClick={toggleMenu}
-              className='text-black focus:outline-none'
-            >
+              className="text-black focus:outline-none">
               {isMenuOpen ? (
-                <svg className={`w-6 h-6 `} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className={`w-6 h-6 `}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               ) : (
-                <svg className={`w-6 h-6 ${isScroll ? 'text-white' : 'text-black'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className={`w-6 h-6 ${
+                    isScroll ? "text-white" : "text-black"
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               )}
             </button>
@@ -62,47 +109,46 @@ return () => window.removeEventListener('scroll', handleScroll);
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className={`md:hidden mt-4 pb-4 space-y-4 ${isScroll?"bg-transparent":"bg-white"}`}>
-            <NavLink 
-              to="/" 
+          <div
+            className={`md:hidden mt-4 pb-4 space-y-4 ${
+              isScroll ? "bg-transparent" : "bg-white"
+            }`}>
+            <NavLink
+              to="/"
               className="block hover:text-blue-700 transition"
-              onClick={toggleMenu}
-            >
+              onClick={toggleMenu}>
               HOME
             </NavLink>
-            <NavLink 
-              to="/projects" 
+            <NavLink
+              to="/projects"
               className="block hover:text-blue-700 transition"
-              onClick={toggleMenu}
-            >
-            PROJECTS
+              onClick={toggleMenu}>
+              PROJECTS
             </NavLink>
-            <NavLink 
-              to="/service" 
+            <NavLink
+              to="/service"
               className="block hover:text-blue-700 transition"
-              onClick={toggleMenu}
-            >
+              onClick={toggleMenu}>
               SERVICE
             </NavLink>
-            <NavLink 
-              to="/team" 
+            <NavLink
+              to="/team"
               className="block hover:text-blue-700 transition"
-              onClick={toggleMenu}
-            >
+              onClick={toggleMenu}>
               TEAM
             </NavLink>
-            <NavLink 
+            {/* <NavLink 
               to="/contact" 
               className="block hover:text-blue-700 transition"
               onClick={toggleMenu}
             >
               CONTACT
-            </NavLink>
+            </NavLink> */}
           </div>
         )}
       </div>
     </nav>
-  )
+  );
 }
 
 export default Navbar

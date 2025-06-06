@@ -89,7 +89,7 @@ const Home = () => {
                 className="rounded-lg shadow-xl w-full h-auto"
               />
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4 transform hover:scale-105 transition-transform">
+            <div className="w-full hidden md:flex md:w-1/3 lg:w-1/4 transform hover:scale-105 transition-transform">
               <img
                 src="./images/0468f5fe-9c89-436f-9ba4-6f68bf630643123.jpeg"
                 alt="demo"
