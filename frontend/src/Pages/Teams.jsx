@@ -13,21 +13,8 @@ const TeamPage = () => {
       //     // linkedin: 'https://linkedin.com/in/alexjohnson',
       //     // email: 'alex@company.com'
       //   }
-    },
-    {
+    }, {
       id: 2,
-      name: "Samishtha Brijwasi",
-      role: "Digital Marketing Specialist",
-      bio: "Skilled marketer focused on SEO, content creation, and growing digital presence.",
-      image:
-        "https://ucarecdn.com/4a1f1134-b9a8-4fd0-8338-9d95233afb6b/e3b60415e7cd40fda8d2ad859e062570fg.jpeg",
-      //   social: {
-      //     // linkedin: 'https://linkedin.com/in/sarahwilliams',
-      //     // email: 'sarah@company.com'
-      //   }
-    },
-    {
-      id: 3,
       name: "Harshit Brijwasi",
       role: "Co-founder & Software Developer",
       bio: "Full-stack developer specializing in scalable apps using React, Node.js, and modern APIs.",
@@ -39,6 +26,19 @@ const TeamPage = () => {
       //     // email: 'michael@company.com'
       //   }
     },
+    {
+      id: 3,
+      name: "Samishtha Brijwasi",
+      role: "Digital Marketing Specialist",
+      bio: "Skilled marketer focused on SEO, content creation, and growing digital presence.",
+      image:
+        "https://ucarecdn.com/4a1f1134-b9a8-4fd0-8338-9d95233afb6b/e3b60415e7cd40fda8d2ad859e062570fg.jpeg",
+      //   social: {
+      //     // linkedin: 'https://linkedin.com/in/sarahwilliams',
+      //     // email: 'sarah@company.com'
+      //   }
+    },
+    
     {
       id: 4,
       name: "Ravi Sharma",

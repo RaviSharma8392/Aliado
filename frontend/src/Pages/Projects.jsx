@@ -86,6 +86,26 @@ const ProjectsSection = () => {
       link: "https://www.gaurasbistro.com/",
       tags: ["React"],
     },
+    {
+      id: 8,
+      name: "The Cozy Hideaway Stays",
+      description:
+        "A cozy homestay offering peaceful stays in the hills with personalized hospitality.",
+      logo: "https://ww.gaurasbistro.com/static/media/gauras_logo.779bab8ec2668dbe85e9.png",
+      image: "./images/Screenshot 025-06-05 44558.png",
+      link: "https://spontaneous-fox-80c4eb.netlify.app/",
+      tags: ["React"],
+    },
+     {
+      id: 9,
+      name: "The Nature Sprint Resort",
+      description:
+        "The Nature Sprint Resort A stylish hotel and restaurant serving comfort, flavor, and relaxation in every stay.",
+      logo: "https://www.thenaturesprintresort.com/img/logo-dark.png",
+      image: "./images/Screenshot 2025-06-07 2585.png",
+      link: "https://spontaneous-fox-80c4eb.netlify.app/",
+      tags: ["React"],
+    },
   ];
 
   return (
